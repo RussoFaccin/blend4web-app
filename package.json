@@ -1,0 +1,22 @@
+{
+  "name": "blend4web-app",
+  "version": "1.0.0",
+  "description": "Blend4Web Boilerplate Application",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "Blend4Web"
+  ],
+  "author": "RussoFaccin",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "blend4web": "^17.12.0"
+  }
+}
