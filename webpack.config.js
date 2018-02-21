@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 const config = {
     entry: './src/index.js',
@@ -10,6 +11,7 @@ const config = {
     module: {
     },
     plugins: [
+        new UglifyJsPlugin()
     ],
     devServer: {
         index: 'dist/index.html',
